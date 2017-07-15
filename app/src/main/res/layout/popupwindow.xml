@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/txtDiabetiketTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:gravity="top|center_horizontal"
+        android:text="Diabetiket"
+        android:textSize="50px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtYndyreTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yndyre-intolerantet:"
+        android:textSize="50px"
+        android:layout_marginTop="71dp"
+        android:layout_below="@+id/imgdiabetikettest"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:id="@+id/txtLaktozeTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Laktoze-Intolerantet:"
+        android:textSize="50px"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/txtYndyreTest"
+        android:layout_alignStart="@+id/txtYndyreTest" />
+
+
+    <TextView
+        android:id="@+id/txtKripeTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kripe-Intolerantet"
+        android:textSize="50px"
+        android:layout_marginBottom="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imgdiabetikettest"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:layout_below="@+id/txtDiabetiketTest"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp" />
+
+    <ImageView
+        android:id="@+id/imgyndyrashattest"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:layout_below="@+id/txtYndyreTest"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp" />
+
+    <ImageView
+        android:id="@+id/imglaktozeintoleranttest"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:layout_below="@+id/txtLaktozeTest"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp" />
+
+    <ImageView
+        android:id="@+id/imgkripintoleranttest"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:layout_marginTop="36dp"
+        android:layout_alignTop="@+id/txtKripeTest"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

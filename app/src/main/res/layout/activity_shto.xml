@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_second"
+    android:gravity="left"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_shto">
+
+
+    <EditText
+        android:id="@+id/editTextBarcodeID"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textSize="10sp"
+        android:ems="10"
+        android:hint="Fut barkodin e produktit qe doni te regjistroni."
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextEmriProduktit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextBarcodeID"
+        android:ems="10"
+        android:textSize="10sp"
+        android:hint="Fut emrin e produktit qe doni te regjistroni."
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextShtetiImp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextEmriProduktit"
+        android:ems="10"
+        android:textSize="10sp"
+        android:hint="Shteti importues."
+        android:inputType="text"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextShtetiPro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextShtetiImp"
+        android:ems="10"
+        android:textSize="10sp"
+        android:hint="Shteti prodhues."
+        android:inputType="text"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextKategoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextShtetiPro"
+        android:hint="Kategoria"
+        android:textSize="10sp"
+        android:inputType="text"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextVE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextKategoria"
+        android:ems="10"
+        android:textSize="10sp"
+        android:hint="Vlerat energjetike per 100 gram"
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextProteina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextVE"
+        android:textSize="10sp"
+        android:ems="5"
+        android:hint="Proteina per 100 gram"
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextVitamina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextProteina"
+        android:ems="10"
+        android:textSize="10sp"
+        android:hint="Vitaminat e permbajtura"
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextKarbohidrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextVitamina"
+        android:ems="10"
+        android:textSize="10sp"
+        android:hint="Karbohidrate per 100 gram"
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextYndyre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextKarbohidrate"
+        android:ems="10"
+        android:textSize="10sp"
+        android:hint="Yndyre per 100 gram"
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextKolesterol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextYndyre"
+        android:ems="10"
+        android:textSize="10sp"
+        android:hint="Kolesterol per 100 gram"
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextSheqer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextKolesterol"
+        android:ems="10"
+        android:textSize="10sp"
+        android:hint="Sheqer per 100 gram"
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextGlukoza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextSheqer"
+        android:ems="10"
+        android:textSize="10sp"
+        android:hint="Glukoza per 100gr"
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextLaktoza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextGlukoza"
+        android:ems="10"
+        android:textSize="10sp"
+        android:hint="Laktoza per 100gr"
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextNatrium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextLaktoza"
+        android:ems="10"
+        android:textSize="10sp"
+        android:hint="Natriumi per 100gr"
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextKalcium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextNatrium"
+        android:ems="10"
+        android:textSize="10sp"
+        android:hint="Kalcium per 100gr"
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextHekur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextKalcium"
+        android:ems="10"
+        android:textSize="10sp"
+        android:hint="Hekur per 100gr"
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextFibra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextHekur"
+        android:ems="10"
+        android:textSize="10sp"
+        android:hint="Fut barkodin e produktit qe doni te regjistroni."
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextPesha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextFibra"
+        android:ems="10"
+        android:textSize="10sp"
+        android:hint="Fut barkodin e produktit qe doni te regjistroni."
+        android:inputType="number"
+        android:text="" />
+
+
+    <Button
+        android:id="@+id/btnShtoje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="41dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:text="Shto produktin" />
+</RelativeLayout>
