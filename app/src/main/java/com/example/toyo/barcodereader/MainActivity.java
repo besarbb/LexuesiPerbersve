@@ -16,6 +16,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+//test1212
 
 import static com.example.toyo.barcodereader.R.layout.activity_shto;
 
